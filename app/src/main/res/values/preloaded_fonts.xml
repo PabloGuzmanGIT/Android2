@@ -2,6 +2,7 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/alata</item>
+        <item>@font/archivo_black</item>
         <item>@font/bellota_text_bold</item>
         <item>@font/dm_mono_light</item>
     </array>
