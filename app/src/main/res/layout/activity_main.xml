@@ -31,12 +31,13 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="163dp"
-        android:layout_height="32dp"
+        android:layout_width="169dp"
+        android:layout_height="31dp"
         android:layout_marginTop="32dp"
         android:text="Email Address"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        tools:layout_editor_absoluteX="124dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
         android:id="@+id/textView2"
@@ -44,17 +45,18 @@
         android:layout_height="39dp"
         android:layout_marginTop="12dp"
         android:text="Password"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:layout_editor_absoluteX="122dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="TextView"
+        android:layout_width="113dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="16dp"
+        android:text="Forgot Password?"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:layout_editor_absoluteX="253dp" />
+        tools:layout_editor_absoluteX="252dp" />
 
     <Button
         android:id="@+id/button"
