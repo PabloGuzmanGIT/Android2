@@ -55,35 +55,42 @@
 
     <EditText
         android:id="@+id/txtEmail"
-        android:layout_width="190dp"
-        android:layout_height="wrap_content"
+        android:layout_width="189dp"
+        android:layout_height="26dp"
         android:layout_marginTop="20dp"
+        android:layout_marginBottom="4dp"
         android:height="50dp"
         android:background="@drawable/custom_edit_text"
         android:drawableLeft="@drawable/ic_email"
         android:ems="10"
         android:hint="Email Address"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/txtPassword"
         android:layout_width="190dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
         android:height="50dp"
         android:background="@drawable/custom_edit_text"
         android:drawableLeft="@drawable/ic_lock"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/txtEmail"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/txtRegister"

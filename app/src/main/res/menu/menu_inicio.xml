@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_compras"
+        android:title="compras"
+        android:icon="@drawable/ic_outline_shopping_bag_24"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/nav_informacion"
+        android:title="información" />
+    <item
+        android:id="@+id/nav_listas"
+        android:title="restaurantes" />
+    <item
+        android:id="@+id/nav_galeria"
+        android:title="galeria" />
+</menu>
